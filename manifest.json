@@ -1,0 +1,22 @@
+
+{
+  "manifest_version": 2,
+  "name": "Nox rem",
+  "version": "1.0",
+
+  "description": "So I want to make groups of tabs that i can launch. Say that you want to remember 4 tabs that you opened, with this plugin you can do that. Just click save when you have the tabs open and then load when you want to lanuch them.",
+
+  "icons": {
+    "48": "icons/Nox.jpg"
+  },
+  
+
+
+  "browser_action" : {
+    "default_popup" : "popup.html"
+  },
+
+  "permissions": ["tabs"]
+
+
+}
