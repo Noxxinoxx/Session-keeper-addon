@@ -30,14 +30,20 @@
 
 </head>
 <body>
-  <button id="toggleTabs">Show Open Tabs</button>
+  <button id="addCurrentList">add current list</button>
+  <input type="text" id="sessionName" placeholder="name of session">
 
+ <select id="sessionDropdown">
+    <option value="">Select a session</option>
+  </select>  <!-- Load your script -->
+ 
+<button id="loadUrls">Load URLs</button>
 
-  <button type="button" class="collapsible">menu with tabs</button>
-  <div id="content">
-  </div>
+<button id="removeSession">Remove Session</button>
 
-  <!-- Load your script -->
+<h2>URLs in the selected session:</h2>
+  <ul id="urlList"></ul>
+
   <script src="nox.js"></script>
 </body>
 </html>
